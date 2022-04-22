@@ -1,0 +1,15 @@
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\bin\Debug\netstandard2.0\DedAPI.deps.json
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\bin\Debug\netstandard2.0\DedAPI.dll
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\bin\Debug\netstandard2.0\ref\DedAPI.dll
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\bin\Debug\netstandard2.0\DedAPI.pdb
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\obj\Debug\netstandard2.0\DedAPI.csproj.AssemblyReference.cache
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\obj\Debug\netstandard2.0\DedAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\obj\Debug\netstandard2.0\DedAPI.AssemblyInfoInputs.cache
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\obj\Debug\netstandard2.0\DedAPI.AssemblyInfo.cs
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\obj\Debug\netstandard2.0\DedAPI.csproj.CoreCompileInputs.cache
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\obj\Debug\netstandard2.0\DedAPI.dll
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\obj\Debug\netstandard2.0\ref\DedAPI.dll
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\obj\Debug\netstandard2.0\DedAPI.pdb
+C:\Users\qwerty\source\repos\DedAPI\DedAPI\DedAPI\obj\Debug\netstandard2.0\Views\EntrieListPage.xaml.g.cs
