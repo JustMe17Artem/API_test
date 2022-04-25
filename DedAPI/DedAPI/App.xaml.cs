@@ -14,7 +14,7 @@ namespace DedAPI
             InitializeComponent();
 
             RequestManager = new RequestManager(new RestService());
-            MainPage = new NavigationPage(new EntrieListPage()) { BarBackgroundColor = Color.Red};
+            MainPage = new NavigationPage(new EntrieListPage()) { BarBackgroundColor = Color.White};
         }
 
         protected override void OnStart()

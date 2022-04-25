@@ -5,19 +5,26 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
     <StackLayout>
         
-        <StackLayout Orientation="Horizontal">
-            
+        <StackLayout Orientation="Horizontal" Margin="100,10,10,0">
+
             <Button x:Name="BtnSortAlph"
                     Text="Sort by alphabet" 
                     WidthRequest="100"
+                    FontSize="12"
+                    HeightRequest="70"
                     Clicked="BtnSortAlph_Clicked"/>
             
             <Button x:Name="BtnSortReversAlph"
                     Text="Sort by reverse alphabet" 
                      WidthRequest="100"
+                    HeightRequest="10"
+                     FontSize="12"
                     Clicked="BtnSortReversAlph_Clicked"/>
             
+            
         </StackLayout>
+            <SearchBar x:Name="SBSearch"
+                       TextChanged="SBSearch_TextChanged"/>
 
         <ListView x:Name="LVDeds"
                   HasUnevenRows="True"

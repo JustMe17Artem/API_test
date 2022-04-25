@@ -22,7 +22,7 @@ namespace DedAPI.Views
         {
             base.OnAppearing();
             LVDeds.ItemsSource = await App.RequestManager.GetEntrieModels();
-            Source = (List<Model.EntrieModel>)LVDeds.ItemsSource;
+            Source = (List<EntrieModel>)LVDeds.ItemsSource;
         }
 
         private void BtnSortAlph_Clicked(object sender, EventArgs e)
@@ -34,13 +34,21 @@ namespace DedAPI.Views
         private void BtnSortReversAlph_Clicked(object sender, EventArgs e)
         {
             Source = Source.OrderByDescending(a => a.API).ToList();
-            LVDeds.ItemsSource = Source;    
+            LVDeds.ItemsSource = Source;
         }
 
         private async void LVDeds_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var selectedModel = LVDeds.SelectedItem as EntrieModel;
             await Navigation.PushAsync(new InfoPage(selectedModel));
+        }
+
+        private void SBSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (SBSearch.Text != "")
+                LVDeds.ItemsSource = Source.Where(a => a.API.Contains(SBSearch.Text) || a.Description.Contains(SBSearch.Text));
+            else
+                LVDeds.ItemsSource = Source;
         }
     }
 }

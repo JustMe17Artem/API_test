@@ -16,7 +16,6 @@ namespace DedAPI.Services
         public RestService()
         {
             client = new HttpClient();
-           
         }
         public async Task<List<EntrieModel>> GetDataAsync()
         {

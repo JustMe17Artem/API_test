@@ -17,7 +17,6 @@ C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\bin\Debug\netstandard2.0\DedAPI.d
 C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\bin\Debug\netstandard2.0\DedAPI.dll
 C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\bin\Debug\netstandard2.0\ref\DedAPI.dll
 C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\bin\Debug\netstandard2.0\DedAPI.pdb
-C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\obj\Debug\netstandard2.0\DedAPI.csproj.AssemblyReference.cache
 C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\obj\Debug\netstandard2.0\DedAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\obj\Debug\netstandard2.0\Views\EntrieListPage.xaml.g.cs
@@ -29,3 +28,4 @@ C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\obj\Debug\netstandard2.0\DedAPI.d
 C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\obj\Debug\netstandard2.0\ref\DedAPI.dll
 C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\obj\Debug\netstandard2.0\DedAPI.pdb
 C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\obj\Debug\netstandard2.0\Views\InfoPage.xaml.g.cs
+C:\Users\Guest\Desktop\320Mobile\DedAPI\DedAPI\obj\Debug\netstandard2.0\DedAPI.csproj.AssemblyReference.cache
