@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\qwerty\\source\\repos\\DedAPI\\DedAPI\\DedAPI.UWP\\DedAPI.UWP.csproj": {}
+    "C:\\Users\\Guest\\Desktop\\320Mobile\\DedAPI\\DedAPI.UWP\\DedAPI.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\qwerty\\source\\repos\\DedAPI\\DedAPI\\DedAPI.UWP\\DedAPI.UWP.csproj": {
+    "C:\\Users\\Guest\\Desktop\\320Mobile\\DedAPI\\DedAPI.UWP\\DedAPI.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\qwerty\\source\\repos\\DedAPI\\DedAPI\\DedAPI.UWP\\DedAPI.UWP.csproj",
+        "projectUniqueName": "C:\\Users\\Guest\\Desktop\\320Mobile\\DedAPI\\DedAPI.UWP\\DedAPI.UWP.csproj",
         "projectName": "DedAPI.UWP",
-        "projectPath": "C:\\Users\\qwerty\\source\\repos\\DedAPI\\DedAPI\\DedAPI.UWP\\DedAPI.UWP.csproj",
-        "packagesPath": "C:\\Users\\qwerty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\qwerty\\source\\repos\\DedAPI\\DedAPI\\DedAPI.UWP\\obj\\",
+        "projectPath": "C:\\Users\\Guest\\Desktop\\320Mobile\\DedAPI\\DedAPI.UWP\\DedAPI.UWP.csproj",
+        "packagesPath": "C:\\Users\\Guest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guest\\Desktop\\320Mobile\\DedAPI\\DedAPI.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guest\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "uap10.0.16299"
@@ -33,8 +34,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Users\\qwerty\\source\\repos\\DedAPI\\DedAPI\\DedAPI\\DedAPI.csproj": {
-                "projectPath": "C:\\Users\\qwerty\\source\\repos\\DedAPI\\DedAPI\\DedAPI\\DedAPI.csproj"
+              "C:\\Users\\Guest\\Desktop\\320Mobile\\DedAPI\\DedAPI\\DedAPI.csproj": {
+                "projectPath": "C:\\Users\\Guest\\Desktop\\320Mobile\\DedAPI\\DedAPI\\DedAPI.csproj"
               }
             }
           }
@@ -95,22 +96,24 @@
         }
       }
     },
-    "C:\\Users\\qwerty\\source\\repos\\DedAPI\\DedAPI\\DedAPI\\DedAPI.csproj": {
+    "C:\\Users\\Guest\\Desktop\\320Mobile\\DedAPI\\DedAPI\\DedAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\qwerty\\source\\repos\\DedAPI\\DedAPI\\DedAPI\\DedAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Guest\\Desktop\\320Mobile\\DedAPI\\DedAPI\\DedAPI.csproj",
         "projectName": "DedAPI",
-        "projectPath": "C:\\Users\\qwerty\\source\\repos\\DedAPI\\DedAPI\\DedAPI\\DedAPI.csproj",
-        "packagesPath": "C:\\Users\\qwerty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\qwerty\\source\\repos\\DedAPI\\DedAPI\\DedAPI\\obj\\",
+        "projectPath": "C:\\Users\\Guest\\Desktop\\320Mobile\\DedAPI\\DedAPI\\DedAPI.csproj",
+        "packagesPath": "C:\\Users\\Guest\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guest\\Desktop\\320Mobile\\DedAPI\\DedAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guest\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -168,7 +171,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

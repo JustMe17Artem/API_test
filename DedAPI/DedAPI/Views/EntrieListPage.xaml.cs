@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using DedAPI.Model;
 
 namespace DedAPI.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EntrieListPage : ContentPage
     {
+        List<EntrieModel> Source;
         public EntrieListPage()
         {
             InitializeComponent();
@@ -20,6 +22,25 @@ namespace DedAPI.Views
         {
             base.OnAppearing();
             LVDeds.ItemsSource = await App.RequestManager.GetEntrieModels();
+            Source = (List<Model.EntrieModel>)LVDeds.ItemsSource;
+        }
+
+        private void BtnSortAlph_Clicked(object sender, EventArgs e)
+        {
+            Source = Source.OrderBy(a => a.API).ToList();
+            LVDeds.ItemsSource = Source;
+        }
+
+        private void BtnSortReversAlph_Clicked(object sender, EventArgs e)
+        {
+            Source = Source.OrderByDescending(a => a.API).ToList();
+            LVDeds.ItemsSource = Source;    
+        }
+
+        private async void LVDeds_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var selectedModel = LVDeds.SelectedItem as EntrieModel;
+            await Navigation.PushAsync(new InfoPage(selectedModel));
         }
     }
 }

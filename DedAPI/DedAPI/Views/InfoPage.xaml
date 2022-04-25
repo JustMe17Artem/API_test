@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DedAPI.Views.InfoPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="Api" Text="{Binding API}"/>
+            <Label Text="{Binding Description}"/>
+            <Label Text="{Binding Auth}"/>
+            <Label x:Name="Lb"/>
+            <Label Text="{Binding Cors}"/>
+            <Label Text="{Binding Link}"/>
+            <Label Text="{Binding Category}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
